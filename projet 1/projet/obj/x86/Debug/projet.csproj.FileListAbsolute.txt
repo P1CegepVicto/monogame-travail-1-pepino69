@@ -24,3 +24,4 @@ C:\Users\Phill\Documents\GitHub\monogame-travail-1-pepino69\projet 1\projet\obj\
 C:\Users\Phill\Documents\GitHub\monogame-travail-1-pepino69\projet 1\projet\obj\x86\Debug\projet.exe
 C:\Users\Phill\Documents\GitHub\monogame-travail-1-pepino69\projet 1\projet\obj\x86\Debug\projet.pdb
 C:\Users\Phill\Documents\GitHub\monogame-travail-1-pepino69\projet 1\projet\bin\Windows\x86\Debug\Content\trump.png
+C:\Users\Phill\Documents\GitHub\monogame-travail-1-pepino69\projet 1\projet\bin\Windows\x86\Debug\Content\background.jpg

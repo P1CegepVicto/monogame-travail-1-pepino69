@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projet", "projet\projet.csproj", "{3364A3C4-78C7-4A89-A79D-B7FD5ED2299D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game2", "Game2\Game2.csproj", "{A8F8EE10-1736-4A39-9C99-721F433FAA47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "game 3", "game 2\game 3.csproj", "{5A6B4E04-E057-4804-A466-E26D60D02E07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -15,6 +19,14 @@ Global
 		{3364A3C4-78C7-4A89-A79D-B7FD5ED2299D}.Debug|x86.Build.0 = Debug|x86
 		{3364A3C4-78C7-4A89-A79D-B7FD5ED2299D}.Release|x86.ActiveCfg = Release|x86
 		{3364A3C4-78C7-4A89-A79D-B7FD5ED2299D}.Release|x86.Build.0 = Release|x86
+		{A8F8EE10-1736-4A39-9C99-721F433FAA47}.Debug|x86.ActiveCfg = Debug|x86
+		{A8F8EE10-1736-4A39-9C99-721F433FAA47}.Debug|x86.Build.0 = Debug|x86
+		{A8F8EE10-1736-4A39-9C99-721F433FAA47}.Release|x86.ActiveCfg = Release|x86
+		{A8F8EE10-1736-4A39-9C99-721F433FAA47}.Release|x86.Build.0 = Release|x86
+		{5A6B4E04-E057-4804-A466-E26D60D02E07}.Debug|x86.ActiveCfg = Debug|x86
+		{5A6B4E04-E057-4804-A466-E26D60D02E07}.Debug|x86.Build.0 = Debug|x86
+		{5A6B4E04-E057-4804-A466-E26D60D02E07}.Release|x86.ActiveCfg = Release|x86
+		{5A6B4E04-E057-4804-A466-E26D60D02E07}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

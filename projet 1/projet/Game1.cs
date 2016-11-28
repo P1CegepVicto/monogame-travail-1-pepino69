@@ -19,6 +19,7 @@ namespace projet
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            
         }
 
         /// <summary>
@@ -32,9 +33,9 @@ namespace projet
             // TODO: Add your initialization logic here
 
 
-            this.graphics.PreferredBackBufferWidth = graphics.GraphicsDevice.DisplayMode.Width;
-            this.graphics.PreferredBackBufferHeight = graphics.GraphicsDevice.DisplayMode.Height;
-            this.graphics.ToggleFullScreen();
+            this.graphics.PreferredBackBufferWidth = 1500;
+            this.graphics.PreferredBackBufferHeight = 1000;
+            this.graphics.ApplyChanges();
             fenetre = new Rectangle(0, 0, graphics.GraphicsDevice.DisplayMode.Width, graphics.GraphicsDevice.DisplayMode.Height);
             base.Initialize();
         }
@@ -46,7 +47,7 @@ namespace projet
         protected override void LoadContent()
         {
             // Create a new SpriteBatch, which can be used to draw textures.
-
+            spriteBatch = new SpriteBatch(GraphicsDevice);
           
 
 
@@ -99,10 +100,20 @@ namespace projet
                 Trump.position.Y += -4;
             }
 
+
+
+            UpdateTrump();
             // TODO: Add your update logic here
 
             base.Update(gameTime);
         }
+
+
+        public void UpdateTrump()
+        {
+            Trump.position += Trump.vitesse;
+        }
+
 
         /// <summary>
         /// This is called when the game should draw itself.
@@ -111,22 +122,10 @@ namespace projet
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
-            spriteBatch.Begin();
-            spriteBatch.Draw(Trump.sprite, Trump.position, Color.White);
-            
-            
+            //spriteBatch.Begin();
+            //spriteBatch.Draw(Trump.sprite, Trump.position, Color.White);
 
-
-
-
-
-
-
-
-
-
-
-            spriteBatch.End();
+            //spriteBatch.End();
 
             // TODO: Add your drawing code here
 
