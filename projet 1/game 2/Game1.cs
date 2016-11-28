@@ -27,7 +27,7 @@ namespace game_2
         SpriteFont text;
         Random rng = new Random();
         int rotate = 0;
-        int kill=0;
+        int kill = 0;
         int nbenemy = 0;
         SoundEffect sonvictory;
         SoundEffect sonfail;
@@ -130,8 +130,9 @@ namespace game_2
             ProjectileE.sprite = Content.Load<Texture2D>("bullet 2.png");
             ProjectileE.vitesse.X = -15;
 
-
+            //text
             text = Content.Load<SpriteFont>("Font");
+
             //Sons
             sonvictory = Content.Load<SoundEffect>("Sound\\fail");
             victory = sonvictory.CreateInstance();
